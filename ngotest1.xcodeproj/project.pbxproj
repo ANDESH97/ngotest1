@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FC801AB9F7A0EF721939E87 /* Pods_ngotest1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02ABA0264D9C120AE297F1C5 /* Pods_ngotest1.framework */; };
 		8801A8E02066C09400A99C99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8DF2066C09400A99C99 /* AppDelegate.swift */; };
-		8801A8E22066C09400A99C99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8E12066C09400A99C99 /* ViewController.swift */; };
+		8801A8E22066C09400A99C99 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8E12066C09400A99C99 /* SignInVC.swift */; };
 		8801A8E52066C09400A99C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8E32066C09400A99C99 /* Main.storyboard */; };
 		8801A8E82066C09400A99C99 /* ngotest1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8E62066C09400A99C99 /* ngotest1.xcdatamodeld */; };
 		8801A8EA2066C09400A99C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8E92066C09400A99C99 /* Assets.xcassets */; };
 		8801A8ED2066C09400A99C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8EB2066C09400A99C99 /* LaunchScreen.storyboard */; };
+		8801A8F52066C16700A99C99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8F42066C16700A99C99 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02ABA0264D9C120AE297F1C5 /* Pods_ngotest1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ngotest1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		376F6DD509426AE8F2B8878A /* Pods-ngotest1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngotest1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ngotest1/Pods-ngotest1.release.xcconfig"; sourceTree = "<group>"; };
+		3A36637FAAEE6D8776DF0EED /* Pods-ngotest1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngotest1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ngotest1/Pods-ngotest1.debug.xcconfig"; sourceTree = "<group>"; };
 		8801A8DC2066C09400A99C99 /* ngotest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ngotest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8801A8DF2066C09400A99C99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8801A8E12066C09400A99C99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8801A8E12066C09400A99C99 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		8801A8E42066C09400A99C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8801A8E72066C09400A99C99 /* ngotest1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ngotest1.xcdatamodel; sourceTree = "<group>"; };
 		8801A8E92066C09400A99C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8801A8EC2066C09400A99C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8801A8EE2066C09400A99C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8801A8F42066C16700A99C99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC801AB9F7A0EF721939E87 /* Pods_ngotest1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F4E3EDEF0A4676E1B9FBFDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02ABA0264D9C120AE297F1C5 /* Pods_ngotest1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8801A8D32066C09400A99C99 = {
 			isa = PBXGroup;
 			children = (
 				8801A8DE2066C09400A99C99 /* ngotest1 */,
 				8801A8DD2066C09400A99C99 /* Products */,
+				A050DBDEB56198696DF76CCC /* Pods */,
+				2F4E3EDEF0A4676E1B9FBFDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,41 @@
 		8801A8DE2066C09400A99C99 /* ngotest1 */ = {
 			isa = PBXGroup;
 			children = (
+				8801A8F72066C2F500A99C99 /* Controllers */,
+				8801A8F62066C2EF00A99C99 /* Model */,
 				8801A8DF2066C09400A99C99 /* AppDelegate.swift */,
-				8801A8E12066C09400A99C99 /* ViewController.swift */,
 				8801A8E32066C09400A99C99 /* Main.storyboard */,
 				8801A8E92066C09400A99C99 /* Assets.xcassets */,
 				8801A8EB2066C09400A99C99 /* LaunchScreen.storyboard */,
+				8801A8F42066C16700A99C99 /* GoogleService-Info.plist */,
 				8801A8EE2066C09400A99C99 /* Info.plist */,
 				8801A8E62066C09400A99C99 /* ngotest1.xcdatamodeld */,
 			);
 			path = ngotest1;
+			sourceTree = "<group>";
+		};
+		8801A8F62066C2EF00A99C99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8801A8F72066C2F500A99C99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8801A8E12066C09400A99C99 /* SignInVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A050DBDEB56198696DF76CCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A36637FAAEE6D8776DF0EED /* Pods-ngotest1.debug.xcconfig */,
+				376F6DD509426AE8F2B8878A /* Pods-ngotest1.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8801A8F12066C09400A99C99 /* Build configuration list for PBXNativeTarget "ngotest1" */;
 			buildPhases = (
+				37ADB736F01964AE448E3AAF /* [CP] Check Pods Manifest.lock */,
 				8801A8D82066C09400A99C99 /* Sources */,
 				8801A8D92066C09400A99C99 /* Frameworks */,
 				8801A8DA2066C09400A99C99 /* Resources */,
+				BE03DA7705A806F547B2E255 /* [CP] Embed Pods Frameworks */,
+				C31336A744BDFABEC425F593 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8801A8ED2066C09400A99C99 /* LaunchScreen.storyboard in Resources */,
+				8801A8F52066C16700A99C99 /* GoogleService-Info.plist in Resources */,
 				8801A8EA2066C09400A99C99 /* Assets.xcassets in Resources */,
 				8801A8E52066C09400A99C99 /* Main.storyboard in Resources */,
 			);
@@ -134,12 +181,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37ADB736F01964AE448E3AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ngotest1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE03DA7705A806F547B2E255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ngotest1/Pods-ngotest1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ngotest1/Pods-ngotest1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31336A744BDFABEC425F593 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ngotest1/Pods-ngotest1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8801A8D82066C09400A99C99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8801A8E22066C09400A99C99 /* ViewController.swift in Sources */,
+				8801A8E22066C09400A99C99 /* SignInVC.swift in Sources */,
 				8801A8E82066C09400A99C99 /* ngotest1.xcdatamodeld in Sources */,
 				8801A8E02066C09400A99C99 /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +383,7 @@
 		};
 		8801A8F22066C09400A99C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A36637FAAEE6D8776DF0EED /* Pods-ngotest1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +399,7 @@
 		};
 		8801A8F32066C09400A99C99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376F6DD509426AE8F2B8878A /* Pods-ngotest1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
