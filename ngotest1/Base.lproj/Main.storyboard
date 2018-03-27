@@ -133,11 +133,50 @@
                     <connections>
                         <outlet property="emailField" destination="oRD-ZL-Ybm" id="P0h-Fl-IfX"/>
                         <outlet property="pwdField" destination="Qd1-e6-kke" id="Rng-zo-Zgb"/>
+                        <segue destination="3bj-je-PdT" kind="show" identifier="goToFeed" id="EQZ-U1-zxm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+        <!--FeedVC-->
+        <scene sceneID="x8L-QC-IoB">
+            <objects>
+                <viewController id="3bj-je-PdT" customClass="FeedVC" customModule="ngotest1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JtE-9N-z8j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJQ-bn-buP">
+                                <rect key="frame" x="114" y="293" width="181" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="QJp-pl-Cko"/>
+                                    <constraint firstAttribute="width" constant="181" id="vxz-y7-2tj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Sign Out">
+                                    <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signInTapped:" destination="3bj-je-PdT" eventType="touchUpInside" id="ldD-gd-Xkq"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="1FS-cf-W8k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lJQ-bn-buP" firstAttribute="top" secondItem="MTK-bv-tUm" secondAttribute="top" constant="273" id="2Bn-Js-zWy"/>
+                            <constraint firstItem="lJQ-bn-buP" firstAttribute="leading" secondItem="MTK-bv-tUm" secondAttribute="leading" constant="114" id="JeT-It-Aa3"/>
+                            <constraint firstItem="MTK-bv-tUm" firstAttribute="trailing" secondItem="lJQ-bn-buP" secondAttribute="trailing" constant="80" id="Qe9-Jg-UbJ"/>
+                            <constraint firstItem="MTK-bv-tUm" firstAttribute="bottom" secondItem="lJQ-bn-buP" secondAttribute="bottom" constant="292" id="ux4-dy-sXK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MTK-bv-tUm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NER-Sv-WAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949.60000000000002" y="117.39130434782609"/>
         </scene>
     </scenes>
     <resources>

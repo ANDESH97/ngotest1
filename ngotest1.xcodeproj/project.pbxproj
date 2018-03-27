@@ -15,6 +15,8 @@
 		8801A8EA2066C09400A99C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8E92066C09400A99C99 /* Assets.xcassets */; };
 		8801A8ED2066C09400A99C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8EB2066C09400A99C99 /* LaunchScreen.storyboard */; };
 		8801A8F52066C16700A99C99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8F42066C16700A99C99 /* GoogleService-Info.plist */; };
+		8801A8FB206AC99C00A99C99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FA206AC99C00A99C99 /* Constants.swift */; };
+		8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FC206ACC4D00A99C99 /* FeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		8801A8EE2066C09400A99C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8801A8F42066C16700A99C99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8801A8F82069674800A99C99 /* ngotest1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ngotest1.entitlements; sourceTree = "<group>"; };
+		8801A8FA206AC99C00A99C99 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8801A8FC206ACC4D00A99C99 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		8801A8DE2066C09400A99C99 /* ngotest1 */ = {
 			isa = PBXGroup;
 			children = (
+				8801A8F9206AC98600A99C99 /* Utilities */,
 				8801A8F82069674800A99C99 /* ngotest1.entitlements */,
 				8801A8F72066C2F500A99C99 /* Controllers */,
 				8801A8F62066C2EF00A99C99 /* Model */,
@@ -99,8 +104,17 @@
 			isa = PBXGroup;
 			children = (
 				8801A8E12066C09400A99C99 /* SignInVC.swift */,
+				8801A8FC206ACC4D00A99C99 /* FeedVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8801A8F9206AC98600A99C99 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8801A8FA206AC99C00A99C99 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		A050DBDEB56198696DF76CCC /* Pods */ = {
@@ -219,6 +233,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -229,6 +244,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -261,7 +277,9 @@
 			files = (
 				8801A8E22066C09400A99C99 /* SignInVC.swift in Sources */,
 				8801A8E82066C09400A99C99 /* ngotest1.xcdatamodeld in Sources */,
+				8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */,
 				8801A8E02066C09400A99C99 /* AppDelegate.swift in Sources */,
+				8801A8FB206AC99C00A99C99 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
