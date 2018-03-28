@@ -25,7 +25,7 @@ class FeedVC: UIViewController {
     }
     
     @IBAction func signInTapped(_ sender: Any) {
-        let  keychainResult = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
+        let keychainResult = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
         try! Auth.auth().signOut()
         performSegue(withIdentifier: "goToSignIn", sender: nil)
     }
