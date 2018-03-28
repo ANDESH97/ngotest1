@@ -17,6 +17,7 @@
 		8801A8F52066C16700A99C99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8801A8F42066C16700A99C99 /* GoogleService-Info.plist */; };
 		8801A8FB206AC99C00A99C99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FA206AC99C00A99C99 /* Constants.swift */; };
 		8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FC206ACC4D00A99C99 /* FeedVC.swift */; };
+		8801A8FF206C1DB800A99C99 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FE206C1DB800A99C99 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8801A8F82069674800A99C99 /* ngotest1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ngotest1.entitlements; sourceTree = "<group>"; };
 		8801A8FA206AC99C00A99C99 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8801A8FC206ACC4D00A99C99 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		8801A8FE206C1DB800A99C99 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				8801A8E12066C09400A99C99 /* SignInVC.swift */,
 				8801A8FC206ACC4D00A99C99 /* FeedVC.swift */,
+				8801A8FE206C1DB800A99C99 /* PostCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */,
 				8801A8E02066C09400A99C99 /* AppDelegate.swift in Sources */,
 				8801A8FB206AC99C00A99C99 /* Constants.swift in Sources */,
+				8801A8FF206C1DB800A99C99 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
