@@ -161,12 +161,16 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signout" translatesAutoresizingMaskIntoConstraints="NO" id="6eL-8d-IQh">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signout" translatesAutoresizingMaskIntoConstraints="NO" id="6eL-8d-IQh">
                                         <rect key="frame" x="30" y="20" width="30" height="30"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="3m3-yA-2US"/>
                                             <constraint firstAttribute="height" constant="30" id="HtH-7Q-U3d"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Ko9-g6-AKm" appends="YES" id="yCe-yN-Tvt"/>
+                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -296,6 +300,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NER-Sv-WAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Ko9-g6-AKm">
+                    <connections>
+                        <action selector="signOutTapped:" destination="3bj-je-PdT" id="Ca8-wz-Hwj"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="aog-wG-zeu"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="949.60000000000002" y="117.39130434782609"/>
         </scene>

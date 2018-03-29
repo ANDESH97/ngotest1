@@ -42,7 +42,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func signInTapped(_ sender: Any) {
+    @IBAction func signOutTapped(_ sender: Any) {
         let keychainResult = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
         try! Auth.auth().signOut()
         performSegue(withIdentifier: "goToSignIn", sender: nil)

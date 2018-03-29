@@ -18,6 +18,7 @@
 		8801A8FB206AC99C00A99C99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FA206AC99C00A99C99 /* Constants.swift */; };
 		8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FC206ACC4D00A99C99 /* FeedVC.swift */; };
 		8801A8FF206C1DB800A99C99 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FE206C1DB800A99C99 /* PostCell.swift */; };
+		8801A902206C355700A99C99 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A901206C355700A99C99 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		8801A8FA206AC99C00A99C99 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8801A8FC206ACC4D00A99C99 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		8801A8FE206C1DB800A99C99 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		8801A901206C355700A99C99 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		8801A8DE2066C09400A99C99 /* ngotest1 */ = {
 			isa = PBXGroup;
 			children = (
+				8801A900206C353B00A99C99 /* Services */,
 				8801A8F9206AC98600A99C99 /* Utilities */,
 				8801A8F82069674800A99C99 /* ngotest1.entitlements */,
 				8801A8F72066C2F500A99C99 /* Controllers */,
@@ -118,6 +121,14 @@
 				8801A8FA206AC99C00A99C99 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8801A900206C353B00A99C99 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8801A901206C355700A99C99 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A050DBDEB56198696DF76CCC /* Pods */ = {
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8801A8E22066C09400A99C99 /* SignInVC.swift in Sources */,
+				8801A902206C355700A99C99 /* DataService.swift in Sources */,
 				8801A8E82066C09400A99C99 /* ngotest1.xcdatamodeld in Sources */,
 				8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */,
 				8801A8E02066C09400A99C99 /* AppDelegate.swift in Sources */,
