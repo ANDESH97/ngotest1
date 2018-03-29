@@ -15,17 +15,9 @@ class DataService {
     
     static let ds = DataService()
     
-    private var _REF_BASE = DB_BASE
-    private var _REF_NGO = DB_BASE.child("NGO")
-    private var _REF_USERS = DB_BASE.child("users")
-    
-    var REF_BASE: DatabaseReference {
-        return REF_BASE
-    }
-    
-    var REF_NGO: DatabaseReference {
-        return REF_NGO
-    }
+    private(set) var _REF_BASE = DB_BASE
+    private(set) var _REF_NGO = DB_BASE.child("NGO")
+    private(set) var _REF_USERS = DB_BASE.child("users")
     
     func createFirebaseDBUser(uid: String, userData: Dictionary<String, String>){
         _REF_USERS.child(uid).updateChildValues(userData)

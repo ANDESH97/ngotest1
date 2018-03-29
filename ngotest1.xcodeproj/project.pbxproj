@@ -19,6 +19,7 @@
 		8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FC206ACC4D00A99C99 /* FeedVC.swift */; };
 		8801A8FF206C1DB800A99C99 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A8FE206C1DB800A99C99 /* PostCell.swift */; };
 		8801A902206C355700A99C99 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A901206C355700A99C99 /* DataService.swift */; };
+		8801A906206D20DD00A99C99 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8801A905206D20DD00A99C99 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		8801A8FC206ACC4D00A99C99 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		8801A8FE206C1DB800A99C99 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		8801A901206C355700A99C99 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8801A905206D20DD00A99C99 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		8801A8F62066C2EF00A99C99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8801A905206D20DD00A99C99 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				8801A8E22066C09400A99C99 /* SignInVC.swift in Sources */,
 				8801A902206C355700A99C99 /* DataService.swift in Sources */,
 				8801A8E82066C09400A99C99 /* ngotest1.xcdatamodeld in Sources */,
+				8801A906206D20DD00A99C99 /* Post.swift in Sources */,
 				8801A8FD206ACC4D00A99C99 /* FeedVC.swift in Sources */,
 				8801A8E02066C09400A99C99 /* AppDelegate.swift in Sources */,
 				8801A8FB206AC99C00A99C99 /* Constants.swift in Sources */,
